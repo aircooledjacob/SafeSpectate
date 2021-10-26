@@ -1,0 +1,17 @@
+#Configuration file for SafeSpectate
+#here you can configure what is blocked when in SafeSpectate
+
+#Players will be blocked from running any commands if true (Default: true)
+block-all-commands: true
+
+#Players will be blocked from sending messages to chat if true (Default: false)
+block-all-chat: false
+
+#permission nodes to block when in SafeSpectate (note: do not block SafeSpectate.spectate)
+blocked-permission-nodes:
+  - essentials.sethome
+  - essentials.tpahere
+  - essentials.tpaccept
+
+#### DO NOT TOUCH ####
+config-version: 0.1.0
